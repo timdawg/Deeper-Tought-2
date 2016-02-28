@@ -51,10 +51,10 @@ Deeper Thought 2 is a fork of Deeper Thought by Norman Davie.  For the original 
 * The install script enables auto-start and disables auto-start for the pidp8 simulator
   * To install without enabling auto-start, add the "--no-autostart" parameter
   * To later disable auto-start and restore the pidp8 simulator auto-start, add the "--restore-pidp8" parameter
-* Stop the pidp8 simulator before running this (or reboot if you kept auto-start enabled)
 * To just build run "make" in the deeper directory.
 
 #####Running Deeper Thought 2 (if installed with the install script)
+* Stop the pidp8 simulator before running this (sudo /etc/init.d/pidp8 stop)
 * To run as a daemon in the background:
   * sudo /etc/init.d/deeper {start|stop|restart|status}
 * To run in the terminal window run:
