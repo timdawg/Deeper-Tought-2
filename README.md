@@ -3,6 +3,8 @@ A program that blinks the LEDs on the [PiDP-8 kit](http://obsolescence.wix.com/o
 
 Deeper Thought 2 is a fork of [Deeper Thought by Norman Davie](https://groups.google.com/d/msg/pidp-8/tbciVNoZJbw/AMjywRKLAwAJ).  The file gpio.c and gpio.h were copied from Oscar Vermeulen's PDP-8/simH project.
 
+**[Deeper Thought 2 Demo Video on YouTube](https://youtu.be/0OudB99Cccc)**
+
 #####Added modes by changing the 3 far left brown switches (0=down / 1=up)
 * **111** = Normal mode with all LEDs flashing (Default / Undefined fallback)
 * **011** = Sleep Mode (All LEDs off except for the columns on the right side of the panel)
