@@ -57,28 +57,27 @@
  * 			The 20ms delay is subtracted from the main blink delay to keep the same timing.
  * 		Instead of toggling the execute LED, it blinks for 20ms.
  * 			It is turned on at the beginning of the cycle and turned off before the 20ms delay described above.
- * 
- * 	Added console output that shows switch values when the switches change.
  * 	
  * 	Changed the stop switch so that it must be held for 3 seconds to quit the program
  * 	
  * 	Added new command sequences:
  * 		Shutdown system - Flip both the Sing Inst and Sing Step switches down and hold the Stop button for 3 seconds
- * 		Reboot system - Flip both the Sing Inst and Sing Step switches down and hold the Stop button for 3 seconds
+ * 		Reboot system - Flip both the Sing Inst and Sing Step switches down and hold the Start button for 3 seconds
  *
  * 	Misc Notes:
+ *		Added console output that shows switch values when the switches change.
  * 		The blink delay is fixed to 1/2 second in Binary Clock mode.
- * 		To compile run "make" in the deeper directory.
- * 		To install run "sudo ./install_deeper.sh" in the deeper directory
  * 		This should not be run simultaneously with the pidp8 simulator
  * 	
  *	Installation
- *  	To install run "sudo ./install_deeper.sh" in the deeper directory
+ *  	To install run "sudo ./install_deeper.sh" in the deeper directory (also builds)
  * 		The install script enables auto-start and disables auto-start for the pidp8 simulator
  *  	To install without enabling auto-start, add the "--no-autostart" parameter
  *  	To later disable auto-start and restore the pidp8 simulator auto-start, add the "--restore-pidp8" parameter
+ * 		To just build run "make" in the deeper directory.
  * 	
  *	Running Deeper Thought 2
+ * 		Stop the pidp8 simulator before running this (sudo /etc/init.d/pidp8 stop)
  *  	To run as a daemon in the background:
  *			sudo /etc/init.d/deeper {start|stop|restart|status}
  *		To run in the terminal window run:
