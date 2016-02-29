@@ -41,7 +41,7 @@ Deeper Thought 2 is a fork of [Deeper Thought by Norman Davie](https://groups.go
 
 #####Added new command sequences:
 * Shutdown system - Flip both the Sing Inst and Sing Step switches down and hold the Stop button for 3 seconds
-* Reboot system - Flip both the Sing Inst and Sing Step switches down and hold the Stop button for 3 seconds
+* Reboot system - Flip both the Sing Inst and Sing Step switches down and hold the Start button for 3 seconds
 
 #####Misc Notes:
 * Added console output that shows switch values when the switches change.
